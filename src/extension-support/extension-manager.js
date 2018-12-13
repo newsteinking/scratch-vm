@@ -12,6 +12,7 @@ const Scratch3PenBlocks = require('../extensions/scratch3_pen');
 const Scratch3PenSEANBlocks = require('../extensions/scratch3_seanpen');
 const Scratch3HelloWorldBlocks = require('../extensions/scratch3_seanbrowser');
 const Scratch3SEANLABMicroBitBlocks = require('../extensions/scratch3_seanlab');
+const Scratch3MakeyMakeyBlocks = require('../extensions/scratch3_makeymakey');
 /**** sean ****/
 const Scratch3WeDo2Blocks = require('../extensions/scratch3_wedo2');
 const Scratch3MusicBlocks = require('../extensions/scratch3_music');
@@ -27,6 +28,7 @@ const builtinExtensions = {
     seanpen: Scratch3PenSEANBlocks,
     seanbrowser: Scratch3HelloWorldBlocks,
     seanlablogo: Scratch3SEANLABMicroBitBlocks,
+    seanlabmakeylogo: Scratch3MakeyMakeyBlocks,
     wedo2: Scratch3WeDo2Blocks,
     music: Scratch3MusicBlocks,
     microbit: Scratch3MicroBitBlocks,
